@@ -30,3 +30,15 @@ background-color: #ff4500;
 padding: 10px;
 text-align: center;
 }
+
+@media screen and (min-width:641px){
+  aside{
+  width: calc(50% - 20px);
+  float:left;
+  }
+  #side:after{
+  content:"";
+  display:block;
+  clear:both;
+  }
+}
